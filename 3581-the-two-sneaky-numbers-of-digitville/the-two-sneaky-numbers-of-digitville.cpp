@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> getSneakyNumbers(vector<int>& nums) {
         vector<int> ans;
-        unordered_map<int,int> freq;
+        map<int,int> freq;
         int n = nums.size();
         for(int i = 0; i < n; i++){
             freq[nums[i]]++;
