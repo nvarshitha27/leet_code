@@ -7,9 +7,8 @@ public:
         for (int i = 0; i < k; i++) {
             sum += nums[i];
         }
-
         long long maxSum = sum;
-
+        
         // Sliding window
         for (int i = k; i < nums.size(); i++) {
             sum += nums[i];
